@@ -1,0 +1,39 @@
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #eaeaea;
+  height: 100vh;
+  position: relative;
+}
+
+
+#about {
+  height: 500px;
+}
+
+#projects {
+  background-color: #eaeaea;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+button {
+margin-bottom: 40px;
+}
+
+footer {
+  height: 15px;
+  padding: 10px;
+}
+
+/* Media Query ketika dibuka di mobile */
+@media (max-width: 576px) {
+  .btn-github {
+    width: 90%;
+  }
+
+  .navbar {
+    background-color: black !important;
+  }
+}
